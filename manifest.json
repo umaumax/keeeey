@@ -1,17 +1,13 @@
 {
-    "name": "keeeey",
-    "version": "0.0.4",
-    "manifest_version": 2,
-    "description": "key bind tool",
-    "content_scripts": [{
-        "matches": [
-            "https://*/*",
-            "http://*/*"
-        ],
-        "js": [
-            "jquery.min.js",
-            "script.js"
-        ],
-        "run_at": "document_start"
-    }]
+  "name": "keeeey",
+  "version": "0.0.4",
+  "manifest_version": 3,
+  "description": "key bind tool",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["jquery.min.js", "script.js"],
+      "run_at": "document_start"
+    }
+  ]
 }
